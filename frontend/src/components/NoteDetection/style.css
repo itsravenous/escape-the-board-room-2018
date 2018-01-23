@@ -1,0 +1,19 @@
+.note-detection__note {
+  display: inline-block;
+  margin-right: 0.5rem;
+
+  color: black;
+  font-weight: bold;
+}
+
+.note-detection__note-enter {
+  opacity: 0.01;
+  transform: scale3d(5, 5, 2);
+}
+
+.note-detection__note-enter.note-detection__note-enter-active {
+  color: yellowgreen;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+  transition: color 1s ease-in, transform 1s ease-in, opacity 1s ease-in;
+}

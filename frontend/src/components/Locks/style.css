@@ -1,0 +1,24 @@
+.locks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.locks .locks__lock {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.locks__input {
+  display: inline-block;
+  width: 25rem;
+  padding: 0.5rem;
+  background: white;
+  color: gray;
+  border: 0.25rem solid grey;
+  border-radius: 0.25rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  transition: border-color 0.3s;
+}
+.locks__input--true {
+  border-color: yellowgreen;
+}

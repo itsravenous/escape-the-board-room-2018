@@ -1,0 +1,10 @@
+.launcher > * {
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.launcher button {
+  margin: 0 auto;
+  color: black;
+  font-weight: bold;
+}
